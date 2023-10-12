@@ -1,0 +1,80 @@
+.sub1,.sch1,.sch2, .t1, .t2, .a1, .n4, .n5, .n6, .n7{display:none;}
+/*큰화면 버전 메뉴 안보이게 하기*/
+ul {list-style:none;}
+a {
+	text-decoration:none;
+	color:#ffffff;
+}
+
+*{
+	background:#141414;
+}
+
+.n1{ /*로고,검색창 부분*/
+	margin:20px 50px;
+}
+.sch3{
+	position:absolute;
+	right:10%;
+}
+.menu > li {
+	float:left;
+	background:#141414;
+	position:relative;
+	width:25%;
+}
+hr {
+	border: solid 10px #141414;
+}
+
+.rank{
+	height:1100px;
+}
+.rk1{
+	position:relative;
+	font-weight:bold;
+	font-size:25px; 
+	color:white;
+	left:-100px;
+}
+/*작은화면 버전 콘텐츠 부분*/
+.rank td img{
+	width:130px; height:195px;
+	margin:3px;
+}
+td{
+	font-weight:bold;
+	font-family:sans-serif;
+	color:white;
+	font-size:17px;
+}
+
+.ft1{
+	position:relative;
+	width:100%;
+	height:30px;
+}
+
+.n3{/*sns 메뉴*/
+	position:relative;
+}
+
+.n3 ul li{
+	float:right;
+	margin:10px 10px;
+}
+
+.n3 img{
+	width:30px; height:30px;
+}
+
+td{
+	color:gray;
+	font-weight:bold;
+	position:relative;
+	font-size:13px;
+	float:left;
+}
+.ft1{
+	background:#141414;
+}

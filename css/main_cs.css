@@ -1,0 +1,167 @@
+﻿.sch3, .n8, .rank, .n9{display:none;}
+/*작은화면 버전 콘텐츠 안보이게 하기*/
+*{
+	background:#141414;
+}
+.d1{	/*body 영역*/
+	border:2px solid gray; 
+	width:100%; 
+	height:auto; 
+	margin:0 auto;
+	background:#141414;
+}
+.n1{ /*로고,검색버튼 부분*/
+	margin:10px 10px;
+	color:white;
+}
+
+.sch2 {/*검색버튼*/
+	position:relative;
+	left:70%
+}
+body, ul {
+	margin:0;	/* 밖의 여백 */
+	padding:0;	/* 안쪽 여백 */
+}
+.menu > li { /*상단 첫번째 메뉴*/
+	float:left;
+	background:#141414;
+	position:relative;
+	width:25%;
+	
+}
+.menu > li:hover{
+	background:black;
+}
+.menu > li:hover > ul {/*상단 두번째 메뉴*/
+	opacity:1;
+	visibility: visible;
+	transform : translateY (0);
+	top:60px;
+	left:0;
+}
+.menu ul {
+	position:absolute;
+	opacity:0;
+	visibility:hidden;	/*서브메뉴 숨기기*/
+	/*menu 애니메이션 효과*/
+	transition: .3s ease-in-out;
+	transform : translateY (-20px);
+	z-index:9999;
+	width:250px;
+	border:1px solid black;
+}
+
+.menu ul li { position:relative;}
+.menu ul li:hover > ul {/*상단 두번째 메뉴*/
+	position:absolute;
+	top:0;
+	left:100%;
+}
+.menu > li > a{
+	display:block;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:18px;
+	height:60px;
+	line-height:60px;
+	font-family:sans-serif;
+	text-align:center;
+}
+.menu ul a{
+	display:block;
+	color:gray;
+	font-size:15px;
+	line-height:40px;
+	background:black;
+	padding-left:20px;
+}
+.menu ul a:hover{
+	color:#ffffff;
+	background:gray;
+}
+
+/*리스트 마커 없애기*/
+ul {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+}
+
+hr {
+	border: solid 10px #141414;
+}
+/*슬라이더 부분*/
+#sliderContainer {
+	width:1000px;
+	margin: 0 auto;
+	height:500px;
+	z-index:10;
+}
+
+/*포스터 부분*/
+.a1{
+	height:1100px;
+}
+.t1{
+	position:relative;
+	font-weight:bold;
+	font-size:25px; 
+	color:white;
+	left:-200px;
+}
+.a1 td img{
+	width:200px; height:300px;
+}
+td{
+	font-weight:bold;
+	font-family:sans-serif;
+	color:white;
+	font-size:17px;
+}
+/*하단내용*/
+.ft1{
+	background:#141414;
+	clear:both;
+	height:170px;
+	bottom:0;
+}
+.n3 ul li{
+	float:right;
+	margin:20px 10px;
+}
+.n3 img{
+	width:30px; height:30px;
+}
+.n4 ul li{
+	float:left;
+	margin:20px 10px;
+}
+.n4 a{
+	color:#ffffff;
+}
+.n5 ul li{
+	float:left;
+	font-size:12px;
+	color:gray;
+}
+
+.n6 ul li{
+	position:relative;
+	font-size:12px;
+	bottom:50px;
+	float:left;
+	color:gray;
+}
+
+.n7 ul li{
+	position:relative;
+	font-size:12px;
+	bottom:85px;
+	float:left;
+	color:gray;
+}
+
+
+
